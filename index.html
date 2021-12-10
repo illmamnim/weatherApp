@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+      src="https://kit.fontawesome.com/72aca6cf9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Be+Vietnam+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/body.css" />
+  </head>
+
+  <body>
+    <h1>Find Your Weather</h1>
+
+    <form id="overall-name" action="">
+      <input type="search" placeholder="Enter your city" id="city-name" />
+      <input type="button" value="" class="fas fa-search" />
+      <input type="button" id="current" value="Current Location" />
+    </form>
+
+    <table class="main-temp">
+      <tbody>
+        <tr>
+          <td>
+            <ul>
+              <li class="city-text"><strong>[City name]</strong></li>
+              <li id="city-date">##/##/##</li>
+              <li id="city-time">##:##</li>
+              <li id="weatherState">[text]</li>
+            </ul>
+          </td>
+          <td>
+            <div class="temperature-number">
+              <span ><strong id="CFTemp">16</strong></span>
+              <span>
+                <a id="celsius"> C |
+                <a id="fahrenheit">F
+                  </span>
+              <img
+                src="style/media/sunny.png"
+                alt="sunny weather"
+                width="35px"
+              />
+            </div>
+          </td>
+          <td>
+            <img src="style/media/temp2.png" alt="" class="thermometer" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <br />
+    <table class="week-days">
+      <thead>
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="style/media/sunny.png" alt="" /></td>
+          <td><img src="style/media/cloudy.png" alt="" /></td>
+          <td><img src="style/media/sunny.png" alt="" /></td>
+          <td><img src="style/media/rainy.png" alt="" /></td>
+          <td><img src="style/media/cloudy.png" alt="" /></td>
+        </tr>
+        <tr>
+          <td>#°</td>
+          <td>#°</td>
+          <td>#°</td>
+          <td>#°</td>
+          <td>#°</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="style/index.js"></script>
+  </body>
+</html>

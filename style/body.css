@@ -1,0 +1,77 @@
+body {
+  z-index: 1;
+  font-family: "Be Vietnam Pro", sans-serif;
+  border-radius: 5px;
+  border: 2px solid #cde3e9;
+  margin: 20px;
+  padding: 20px 5px;
+  background-image: url("style/media/sky bg 1.png");
+  background-size: auto;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 60px;
+  text-decoration: overline underline 2px;
+  text-underline-position: under;
+}
+input {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 13px;
+  padding: 5px;
+  margin: 12px;
+  border-radius: 5px;
+  border: 2px solid #cde3e9;
+}
+#city-name {
+  margin-left: 30px;
+  padding-right: 30px;
+}
+.fas {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+input:hover {
+  background-color: #cde3e9;
+  transition: all 200ms ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+.main-temp {
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff98;
+}
+ul {
+  list-style: none;
+  font-size: 20px;
+}
+.city-text {
+  font-size: 25px;
+}
+
+.temperature-number strong {
+  font-size: 35px;
+}
+.thermometer {
+  width: 65px;
+}
+.week-days {
+  width: 95%;
+  margin: 5px auto;
+  padding: 20px;
+  border-radius: 5px;
+
+  background: #ffffff98;
+}
+img {
+  width: 35px;
+  margin: 15px;
+}
+.week-days td {
+  font-size: 10px;
+  text-align: center;
+}
